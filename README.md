@@ -1,6 +1,6 @@
 # Professional Portfolio WIP
 
-Since the last portfolio repo I've refactored my code. Some of my positioning was hard coded when I last submitted this assignment. Now I've reduced the amount of class and styled similar elements with the same code. For now, I am using jQuery as a hover over and click action-er for the Furiendr project figure.
+Since the last portfolio repo I've refactored my code. Some of my positioning was hard coded when I last submitted this assignment. Now I've reduced the amount of class and styled similar elements with the same code. For now, I am using jQuery as a hover over and click action-er for the Furiendr project figure. I have also updated my resume, LinkedIn, and GitHub profile link.
 
 ![This is an image](/assets/images/screen1.png)
 
@@ -16,6 +16,6 @@ And have updated my first project with Furiendr.
 
 Future updates:
 
-Mobile responsive for project section
-Google fonts
-
+[ ] Mobile responsive for project section
+[ ] Google fonts
+[ ] Update styling
