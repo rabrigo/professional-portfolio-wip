@@ -1,0 +1,152 @@
+body {
+    color: #d6c3ff;
+}
+
+a {
+    color: #3FA796;
+    text-decoration: none;
+    position: relative;
+}
+
+header {
+    background-color: black;
+    display: flex;
+}
+
+header h1 {
+    text-align: start;
+    color: #FFBD35;
+    font-size: 300%;
+    margin-bottom: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 35%;
+}
+
+header nav a::after {
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #3FA796;
+    top: 18px;
+    left: -0.5%;
+}
+
+header nav a:hover::after {
+    background-color: #dcfff9;
+}
+
+header nav a:hover {
+    color:#dcfff9;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  height: 150px;
+  background-image: url(../assets/images/8k.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+    background-color: #502064;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main aside {
+    color: #FFBD35;
+    width: 20%;
+    border-right: 4px solid #3FA796;
+    margin-bottom: 30px;
+    text-align: right;
+    padding: 20px;
+}
+
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+main h2 {
+    font-size: 22px;
+    line-height: 1;
+}
+
+main figure caption {
+    font-size: 15px;
+}
+
+main figure {
+    border: 4px solid #3FA796;
+}
+
+/* first biggest project box */
+.project-1 {
+    height: 500px;
+    width: 100%;
+    background-color: #3FA796;
+    background-image: url(../assets/images/furiendr.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.project-1 h2, .project-1 figcaption {
+    background-color: #3FA796;
+    height: 40px;
+    width: 220px;
+}
+
+.project-1 h2 {
+    margin-top: 300px;
+}
+
+/* this targets the headers and captions in the project boxes */
+main figure h2, main figure figcaption {
+    background-color: #3FA796;
+    color: white;
+    height: 30px;
+    width: 120px;
+    line-height: 2;
+}
+
+.project-2, .project-3, .project-4, .project-5 {
+    height: 100px;
+    width: 49%;
+    background-color: red;
+    margin-top: 15px;
+}
+
+.project-2 h2, .project-3 h2, .project-4 h2, .project-5 h2 {
+    margin-top: 10px;
+}
+
+.contact-me-links {
+    /* display: flex; */
+    justify-content: space-evenly;
+    font-size: 200%;
+}
+
+.contact-me-links a::after {
+        content:"";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background-color: #3FA796;
+        top: 35px;
+        left: -0.5%;
+}
