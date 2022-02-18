@@ -2,7 +2,7 @@
 
 2-17-22:
 
-I have updated my project 2 link to feature our most recent group project. I have also updated my LinkedIn and resume to include this coding bootcamp into my education. My github profile now has three pinned repos, and I have updated the event listeners to Furiendr and Ponder to assign the browser location instead for replace. This allows for the user to go back on their browser. 
+I have updated my project 2 link to feature our most recent group project. Like the project 1 link, it will fade slightly when you hover over it. I have also updated my LinkedIn and resume to include this coding bootcamp into my education. My github profile now has three pinned repos, and I have updated the event listeners to Furiendr and Ponder to assign the browser location instead for replace. This allows for the user to go back on their browser. 
 
 ![screenshot](/assets/images/screen4.png)
 
