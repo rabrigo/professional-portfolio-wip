@@ -131,6 +131,12 @@ main figure h2, main figure figcaption {
     margin-top: 15px;
 }
 
+.project-2 {
+    background-image: url(../assets/images/ponder.png);
+    background-size: auto;
+    background-position: top;
+}
+
 .project-2 h2, .project-3 h2, .project-4 h2, .project-5 h2 {
     margin-top: 10px;
 }
